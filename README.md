@@ -1,0 +1,17 @@
+## Демонстрация работы
+
+Вывод программы `Main.kt`:
+
+```text
+Rect(x=0, y=0, w=4, h=2)
+Rect(x=3, y=-2, w=4, h=8)
+Area: 32.0
+
+Circle(x=1, y=1, r=5)
+Circle(x=0, y=2, r=10)
+Area: 314.15927
+
+Square(x=2, y=2, side=3)
+Square(x=4, y=-1, side=9)
+Area: 81.0
+```

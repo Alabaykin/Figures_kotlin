@@ -1,0 +1,25 @@
+fun main() {
+    val rect = Rect(0, 0, 4, 2)
+    println(rect)
+    rect.move(2, 3)
+    rect.resize(2)
+    rect.rotate(RotateDirection.Clockwise, 0, 0)
+    println(rect)
+    println("Area: ${rect.area()}\n")
+
+    val circle = Circle(1, 1, 5)
+    println(circle)
+    circle.move(1, -1)
+    circle.resize(2)
+    circle.rotate(RotateDirection.CounterClockwise, 0, 0)
+    println(circle)
+    println("Area: ${circle.area()}\n")
+
+    val square = Square(2, 2, 3)
+    println(square)
+    square.move(-1, 2)
+    square.resize(3)
+    square.rotate(RotateDirection.Clockwise, 0, 0)
+    println(square)
+    println("Area: ${square.area()}")
+}
